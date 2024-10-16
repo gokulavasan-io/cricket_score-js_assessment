@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style1.css" />
+  </head>
+  <body>
+    <form action="">
+      <div>
+        <label for="">Player's Name : </label>
+        <input type="text" id="name" required />
+      </div>
+      <div>
+        <label for="">Balls faced : </label>
+        <input type="number" id="age" required />
+      </div>
+      <div>
+        <label for="">Runs scored:</label>
+        <input type="text" id="subject" required />
+      </div>
+      <div class="buttons">
+        <button id="add">add</button>
+        <button id="remove">remove</button>
+      </div>
+    </form>
+
+    <div class="table">
+      <div>
+        <h3>Player's Name</h3>
+        <ul id="nameList"></ul>
+      </div>
+      <div>|</div>
+      <div>
+        <h3>Balls faced</h3>
+        <ul id="balls-faced"></ul>
+      </div>
+      <div>|</div>
+      <div>
+        <h3>Runs scored</h3>
+        <ul id="runs-scored"></ul>
+      </div>
+      <div>|</div>
+      <div>
+        <h3>Strike rate</h3>
+        <ul id="strike-rate"></ul>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: bisque;
+    border-radius: 20px;
+}
+form .buttons{
+    display: flex;gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    padding: 5px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(236, 233, 78);
+}
+
+.table {
+    display: flex;
+    gap: 30px;
+    border: 1px solid black;
+    padding: 30px;
+   border-radius: 10px;
+}
+
+.table ul li{
+    list-style: none;
+}
+
+.table h3{
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+form label{
+    font-weight: bolder;
+}
+
